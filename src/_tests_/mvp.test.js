@@ -74,7 +74,7 @@ describe("Pizza test, sprint 7 challenge", () => {
     expect(nameInput).toBeInTheDocument()
   });
 
-  it('#name-input \'da "isim en az 2 karakter olmalıdır" hata mesajıyla bir form doğrulama tespit edildi', async () => {
+  it('#name-input \'da "İsim en az 2 karakter olmalıdır" hata mesajıyla bir form doğrulama tespit edildi', async () => {
     let testLocation
     render(
       <MemoryRouter initialEntries={['/pizza']}>
@@ -95,7 +95,7 @@ describe("Pizza test, sprint 7 challenge", () => {
       target: {value: 'a'}
     })
     await waitFor(() => {
-      expect(screen.getByText('isim en az 2 karakter olmalıdır')).toBeInTheDocument()
+      expect(screen.getByText('İsim en az 2 karakter olmalıdır')).toBeInTheDocument()
     })
     nameInput.value = ''
   });
