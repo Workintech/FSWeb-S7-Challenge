@@ -24,8 +24,8 @@ Sitenizi tasarlarken aşağıdaki wireframe(çerçeve)'leri kılavuz olarak kull
 
 ### Görev 1: Proje Kurulumu
 
-- [ ] Forklayarak bir kopya oluşturun
-- [ ] Forku klonlayın
+- [ ] "Use this template" diyerek bir kopya oluşturun.
+- [ ] Yeni reponuzu bilgisayarınıza klonlayın
 - [ ] Main branch üzerinde çalışın
 - [ ] Comitinizi pushlayın: `git push origin main`
 
